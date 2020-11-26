@@ -32,5 +32,7 @@ public class Ejemplo05 {
         } while (contador <= potencia);
         
         System.out.printf("%d\n", resultado);
+        
+        System.out.println(Math.pow(numero,potencia));
     }
 }
